@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang = "ja">
+    <head>
+        <meta charset = "utf-8">
+        <meta http -equiv = "X-UACompatible" content = "IE=edge">
+        <meta name = "viewport" content = "width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+        <title>eerie</title>
+
+        <!-- saved from url=(0013)about:internet-->
+
+        <!-- icon -->
+        <script src="https://kit.fontawesome.com/6839431d86.js" crossorigin="anonymous"></script>
+
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Heebo|Noto+Sans+JP&display=swap" rel="stylesheet">
+
+        <!-- user style -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class ="header-area navbar-fade" id = "header">
+            <nav class = "navbar">
+                    <a class= "navbar-brand" id ="navbarBrand">KANGDONGHOON</a>
+                    <a class= "navbar-toggler" id = "toggleBtn"><i class="fa fa-bars"></i></a>
+                    <div class = "navbar-menu" id= "menu">
+                        <div class = "nav-item"><a class = "nav-link" id = "navbarAbout">about</a></div>
+                        <div class = "nav-item"><a class = "nav-link" id = "navbarPortfolio">活動履歴</a></div>
+                    </div>
+            </nav>  
+
+        </header>
+
+        <div class = "section-container">
+            <div class = "welcome-area">
+                <div class = "container">
+                    <div class = "image-slide fade">
+                        <img src="image/profile8.png">
+                    </div>
+                    <div class = "image-slide fade">
+                        <img src="image/profile6.png">
+                    </div>
+                    <div class = "image-slide fade">
+                        <img src="image/profile9.png">
+                    </div>
+                    <div class = "image-slide fade">
+                        <img src="image/profile10.png">
+                    </div>
+                    <a class = "image-prev" id = "imagePrev">&#10094;</a>
+                    <a class = "image-next" id = "imageNext">&#10095;</a>
+
+                    <div class = "dots">
+                        <span class = "dot" id = "firstDot"></span>
+                        <span class = "dot" id = "secondDot"></span>
+                        <span class = "dot" id = "thirdDot"></span>
+                        <span class = "dot" id = "fourthDot"></span>
+                    </div>
+                </div>
+            </div>  
+            
+            <section class = "about-area" id = "about">              
+                <div class = "title">
+                    ABOUT
+                </div>
+                <div class = "picture">
+                    <img src = "image/profile7.jpg">
+                    <div class = "name">KangDongHoon</div>
+                    <div class = "description">PROGRAMMER</div>
+                </div>
+                <div class = "text">
+                    <div class = "intro">
+                        東京で住んでいる韓国出身の留学生。システム的に面白さを感じられるゲームを作れるゲームプログラマーを目指して頑張っていきたいと思っています。
+                        C++,C#,Unity,Unrealまだまだ色々勉強している最中です。チーム制作と個人用の制作も少しずつ進めています。どんな所でも自分の経験を活かし、対応できるプログラマーになることが現在の目標です。
+                    </div>
+                    <ul>
+                        <li>
+                            <div class = "info">
+                                <i class = "far fa-calendar-alt"></i> 15th July,1992
+                            </div>
+                        </li>
+                        <li>
+                            <div class = "info">
+                                <i class = "fa fa-phone"></i> 070-4800-1867
+                            </div>
+                        </li>
+                        <li>
+                            <div class = "info">
+                                <i class = "fa fa-envelope"></i> kang2019tnwgame@gmail.com
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class = "portfolio-area" id = "portfolio">
+                <div class = "title">
+                    活動履歴
+                </div>
+                <ul class = "pfintro">
+                        <li>
+                            <h3>Unity&C#</h3>
+                            <p>１人制作。ターン制を基本としたスマホ用のRPGゲームになります。町からのクエストを受け、ダンジョンを切り抜けBOSSに挑むことが大きな流れになります
+                                バトルではスターンやフィールドバフなど、色んな変数を適切なタイミングで利用し、クリティカルをどのぐらい発動させるかが、重要しされます。</p>
+                        </li>
+                        <li>
+                            <h3>C++</h3>
+                            <p>Tetris,Itemを利用可能な迷路ゲーム,パズルゲーム,Textを利用したRPGゲームなどを作りました。WinApiで2d横スクロールゲームを作っています。</p>
+                        </li>   
+                </ul>                 
+                <div class = "profile-section">
+                        <h2>作品紹介の動画</h2>    
+                        <ul class = "fieldset"> 
+                            <li>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/l7FF0YXhhbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
+                            </li>                
+                        </ul>    
+                </div>
+
+            </section>
+            
+        </div>
+        <!-- user script -->
+        <script src = "Portfolio.js"></script>
+    </body>
+</html>
